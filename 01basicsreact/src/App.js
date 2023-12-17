@@ -1,20 +1,7 @@
-import "./App.css";
 
-function MyButton() {
+export default function App() {
   return (
-    <>
-      <button>Click Me</button>
-    </>
+   <h1>React learnings of Akshay Patil</h1>
   );
 }
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Akshay Ashok Patil, is going to learn React js with Hands on</h1>
-      <MyButton/>
-    </div>
-  );
-}
-
-export default App;
